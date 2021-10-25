@@ -8,7 +8,6 @@ pipeline {
       agent {
         docker { 
           image 'returntocorp/semgrep-agent:v1'
-          args "-v ${WORKSPACE}:/src"
         }
       }
       steps {

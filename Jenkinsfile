@@ -1,8 +1,5 @@
 pipeline {
   agent any
-  environment {
-    SEMGREP_RULES = "p/security-audit p/secrets"
-  }
   stages {
     stage('scan') {
       steps {

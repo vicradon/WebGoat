@@ -12,7 +12,7 @@ pipeline {
       }
       steps {
         sh 'env | sort'
-        sh 'semgrep-agent --version'
+        sh 'semgrep-agent'
       }
     }
   }

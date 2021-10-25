@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker { 
       image 'returntocorp/semgrep-agent:v1'
-      args '-v $(pwd):/src'
+      args '-v .:/src'
     }
   }
   environment {

@@ -5,6 +5,6 @@ pipeline {
       steps {
         sh "docker run -v ${WORKSPACE}:/src --workdir /src returntocorp/semgrep-agent:v1 semgrep-agent --config p/ci"
       }
-d    }
+    }
   }
 }

@@ -1,10 +1,11 @@
 # WebGoat 8: A deliberately insecure Web Application
 
 [![Pull request build](https://github.com/WebGoat/WebGoat/actions/workflows/pr_build.yml/badge.svg?branch=develop)](https://github.com/WebGoat/WebGoat/actions/workflows/pr_build.yml)
-[![java-jdk](https://img.shields.io/badge/java%20jdk-16-green.svg)](https://jdk.java.net/)
-[![OWASP Labs](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/index.php/OWASP_Project_Inventory#tab=Labs_Projects)
+[![java-jdk](https://img.shields.io/badge/java%20jdk-17-green.svg)](https://jdk.java.net/)
+[![OWASP Labs](https://img.shields.io/badge/OWASP-Lab%20project-f7b73c.svg)](https://owasp.org/projects/)
 [![GitHub release](https://img.shields.io/github/release/WebGoat/WebGoat.svg)](https://github.com/WebGoat/WebGoat/releases/latest)
 [![Gitter](https://badges.gitter.im/OWASPWebGoat/community.svg)](https://gitter.im/OWASPWebGoat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Discussions](https://img.shields.io/github/discussions/WebGoat/WebGoat)](https://github.com/WebGoat/WebGoat/discussions)
 
 # Introduction
 
@@ -66,7 +67,7 @@ WebWolf will be located at: http://localhost:9090/WebWolf (change ports if neces
 
 ### Prerequisites:
 
-* Java 16
+* Java 17
 * Maven > 3.2.1
 * Your favorite IDE
 * Git, or Git support in your IDE
